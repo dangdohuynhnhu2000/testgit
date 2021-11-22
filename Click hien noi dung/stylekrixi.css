@@ -1,0 +1,46 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.thanhxanh {
+    height: 40px;
+    background-color: #4267B2;
+}
+ 
+._1khoi {
+    float: left;
+    position: relative;
+    left: 1000px;
+}
+.icon {
+    padding: 12px 10px;
+    transition: 0.4s;
+}
+.icon i.fas {
+    cursor: pointer;
+}
+.icon i.fab {
+    cursor: pointer;
+}
+.noidung {
+    position: absolute;
+    right: -10px;
+    opacity: 0;
+    visibility: hidden;
+}
+.noidung {
+    position: absolute;
+    width: 200px;
+    box-shadow: 1px 1px 1px;
+  
+}
+.mautrang{
+    color:white;
+}
+.ra{
+    opacity: 1;
+    visibility:visible;
+}
